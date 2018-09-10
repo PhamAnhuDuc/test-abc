@@ -10,7 +10,6 @@ import thunk from 'redux-thunk';
 
 const store = createStore(
     appReducers,
-    
     applyMiddleware(thunk)
 );
 
