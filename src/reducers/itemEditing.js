@@ -7,7 +7,7 @@ const itemEditing = (state = initialState, action) => {
         case Types.EDIT_PRODUCT:
             return action.product;
         default:
-            return state;
+            return [...state];
     }
 }
 
